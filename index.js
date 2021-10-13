@@ -126,7 +126,7 @@ window.onload = function() {
   // 反正也没人用QQ钱包，关键问题是QQ还只能长按保存，不能直接调起支付宝
   if (ua.browser.name == "QQ") {
     document.getElementById("tip-img").src =
-      "https://i.loli.net/2019/06/25/5d11d9c19065848452.png";
+      "https://cdn.jsdelivr.net/gh/sucangit/imageshost/img/QQpay.JPG";
     document.getElementById("tip").style.display = "block";
   }
 
